@@ -1,4 +1,4 @@
-package serverlinkpoc.jaxrs;
+package serverlinkpoc.jaxrs.service;
 
 
 import java.util.Set;
@@ -16,7 +16,8 @@ public class ApplicationConfig extends Application {
     private Set<Class<?>> getRestClasses() {
 		Set<Class<?>> resources = new java.util.HashSet<Class<?>>();
 		
-		resources.add(serverlinkpoc.jaxrs.KimService.class);
+		resources.add(serverlinkpoc.jaxrs.service.KimService.class);
+		resources.add(serverlinkpoc.jaxrs.service.DrawService.class);
 		return resources;    
     }
 }

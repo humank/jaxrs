@@ -1,4 +1,4 @@
-package serverlinkpoc.jaxrs;
+package serverlinkpoc.jaxrs.service;
 
 import java.io.File;
 import java.io.IOException;
